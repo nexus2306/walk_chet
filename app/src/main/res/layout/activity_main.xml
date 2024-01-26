@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!-- Поле ввода для установки цели (дистанции) -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="824dp"
+        android:background="@drawable/bacground"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewGoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Цель: "
+            android:textAlignment="center"
+            android:textSize="18sp" />
+        <!-- Отображение количества шагов -->
+        <TextView
+            android:id="@+id/textViewStepCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Количество шагов: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewCalory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Калорий сожжено: "
+            android:textSize="18sp" />
+
+
+        <!-- Отображение пройденной дистанции -->
+        <TextView
+            android:id="@+id/textViewDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Пройденная дистанция: "
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/buttonPersonActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/orange"
+            android:text="Перейти к данным пользователя" />
+
+        <Button
+            android:id="@+id/buttonClearData"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/orange"
+            android:text="Очистить "
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</LinearLayout>

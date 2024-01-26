@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Поле ввода веса пользователя -->
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите ваш вес (кг)"
+        android:inputType="numberDecimal" />
+
+    <!-- Поле ввода роста пользователя -->
+    <EditText
+        android:id="@+id/editTextHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите ваш рост (см)"
+        android:inputType="numberDecimal" />
+
+    <!-- Поле ввода возраста пользователя -->
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите ваш возраст"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/editTextGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите ваш пол"
+         />
+
+
+    <!-- Кнопка для сохранения введенных данных -->
+    <Button
+        android:id="@+id/buttonSavePhysicalData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сохранить данные" />
+    <Button
+        android:id="@+id/buttonLoadData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Загрузить данные" />
+
+    <Button
+        android:id="@+id/buttonUpdateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Обновить данные" />
+
+    <Button
+        android:id="@+id/buttonDeleteData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Удалить данные" />
+    <EditText
+        android:id="@+id/editTextDistanceGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите цель дистанции (км)"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>
